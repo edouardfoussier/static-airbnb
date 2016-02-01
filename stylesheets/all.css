@@ -9397,19 +9397,17 @@ button.close {
   display: flex;
   align-items: center;
   justify-content: center; }
-
-/* line 10, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_banner.scss */
-.banner h1 {
-  font-size: 50px;
-  font-weight: bold;
-  text-shadow: 0px 1px rgba(0, 0, 0, 0.2); }
-
-/* line 15, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_banner.scss */
-.banner p {
-  font-size: 25px;
-  font-weight: lighter;
-  color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 50px; }
+  /* line 9, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_banner.scss */
+  .banner h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2); }
+  /* line 14, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_banner.scss */
+  .banner p {
+    font-size: 25px;
+    font-weight: lighter;
+    color: rba(255, 255, 255, 0.8);
+    margin-bottom: 50px; }
 
 /* line 1, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_card.scss */
 .card {
@@ -9439,16 +9437,14 @@ button.close {
   position: absolute;
   bottom: 10px;
   left: 10px; }
+  /* line 25, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_card.scss */
+  .card-description h2 {
+    font-size: 22px; }
+  /* line 28, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_card.scss */
+  .card-description p {
+    font-size: 16px; }
 
-/* line 26, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_card.scss */
-.card-description h2 {
-  font-size: 22px; }
-
-/* line 29, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_card.scss */
-.card-description p {
-  font-size: 15px; }
-
-/* line 32, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_card.scss */
+/* line 33, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_card.scss */
 .card-link {
   position: absolute;
   top: 0;
@@ -9457,23 +9453,20 @@ button.close {
   z-index: 2;
   background: black;
   opacity: 0; }
+  /* line 41, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_card.scss */
+  .card-link:hover {
+    opacity: 0.1; }
 
-/* line 41, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_card.scss */
-.card-link:hover {
-  opacity: 0.1; }
-
-/* line 1, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_feature.scss */
+/* line 2, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_feature.scss */
 .features img {
   width: 100px; }
-
-/* line 4, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_feature.scss */
+/* line 5, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_feature.scss */
 .features h2 {
   font-size: 20px;
   margin-bottom: 10px; }
-
-/* line 8, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_feature.scss */
+/* line 9, /Users/edouardfoussier/code/edouardfoussier/static-airbnb/source/stylesheets/components/_feature.scss */
 .features p {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: lighter; }
 
 /*
